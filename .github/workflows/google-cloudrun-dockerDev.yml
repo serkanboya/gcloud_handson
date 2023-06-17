@@ -46,12 +46,12 @@ name: Build and Deploy to Cloud Run
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "develop" ]
 
 env:
   PROJECT_ID: round-core-387411 # TODO: update Google Cloud project id
   GAR_LOCATION: us-east1 # TODO: update Artifact Registry location
-  SERVICE: sm703-service # TODO: update Cloud Run service name
+  SERVICE: sm703dev # TODO: update Cloud Run service name
   REGION: us-east1 # TODO: update Cloud Run service region
 
 jobs:
