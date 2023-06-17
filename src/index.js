@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const db = require('./persistence');
 const getItems = require('./routes/getItems');
-const addItem = require('./routes/addItem');
+const addItem = require('./routes/addItemSSS');
 const updateItem = require('./routes/updateItem');
 const deleteItem = require('./routes/deleteItem');
 
